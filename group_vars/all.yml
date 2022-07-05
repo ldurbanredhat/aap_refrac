@@ -1,5 +1,14 @@
 ---
 controller_user_accounts:
+  - username: "test3"
+    organisation: "Default" 
+    is_superuser: true
+    is_system_auditor: true 
+    password: "pass"
+    first_name: "test3"
+    last_name: "test3"
+    email: "test3@example.com"
+    state: present
   - user: "lameck"
     is_superuser: true 
     password: "pass"
