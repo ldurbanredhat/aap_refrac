@@ -3,7 +3,11 @@
   hosts: localhost
   connection: local
   vars:
-    #controller_validate_certs: false
+    controller_validate_certs: false
+    controller_hostname: ctrl
+    #controller_host: 172.22.152.151
+    controller_username: admin
+    controller_password: admin
   collections:
     - awx.awx
     - redhat_cop.controller_configuration

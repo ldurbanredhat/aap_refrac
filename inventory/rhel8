@@ -1,0 +1,3 @@
+hub ansible_connection=ssh
+hub22 ansible_connection=ssh
+ctrl ansible_connection=ssh
